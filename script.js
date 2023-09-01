@@ -42,7 +42,7 @@ const partecipantiData = [
 
 const speseData = [
     { nome: "Benzina", quota: 50 +20+30 },
-    { nome: "Albergo", quota: 20+20,5 },
+    { nome: "Albergo", quota: 20+20.5 },
     { nome:"Bar", quota: 20}
     // Altre spese...
 ];
