@@ -1,7 +1,8 @@
-* {background-color:#EDB795;
+* {background: radial-gradient(circle, rgba(2,138,199,1) 27%, rgba(106,135,54,1) 100%);
 padding: 0;
 margin: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+color: white;}
 img {
     width: 100%;
     

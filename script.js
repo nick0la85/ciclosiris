@@ -35,16 +35,24 @@ function updateSpeseTable(data) {
 
 // Esempio dati per le tabelle (sostituisci con i tuoi dati reali)
 const partecipantiData = [
-    { nome: "Pasquale", quota:100 +50 },
-    { nome: "Jacob", quota: 150},
+    { nome: "Antonio", quota:0},
+    { nome: "Pino", quota:0},
+    { nome: "Giuseppe", quota:0},
+    { nome: "Filippo", quota:0},
+    { nome: "Nicola", quota:10},
+    { nome: "Franco", quota:0},
+    { nome: "Paolo", quota:0},
+    { nome: "Aldo", quota:0},
+    { nome: "Mimmo", quota:0},
    
 ];
 
 const speseData = [
-    { nome: "Benzina", quota: 50 +20+30 },
-    { nome: "Albergo", quota: 20+20.5 },
-    { nome:"Bar", quota: 20}
-    // Altre spese...
+    { nome: "Albergo", quota:0},
+    { nome: "Ristorante", quota:0},
+    { nome:"Bar", quota: 5},
+    { nome:"Benzina", quota: 0},
+    { nome:"Varie", quota: 0}
 ];
 
 // Aggiorna le tabelle con i dati

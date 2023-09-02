@@ -9,23 +9,65 @@
 </head>
 <body>
     <div>
-        <img src="castellabate.jpg" alt="">
-    <h1 class="text-center">Ciclocilento</h1>
-        <h3>Partecipanti</h3>
-        <table id="partecipanti-table" class="table table-striped table-success m-1 me-3">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Quota</th>
-              </tr>
-            </thead>
-            <tbody >
-              
-            </tbody>
-          </table>
-       <h3>Spese</h3>
-       <table id="spese-table" class="table table-striped table-success m-1 me-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">CicloSilente</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Tappe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="santa-maria-di-castellabate-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="castellabate.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div id="total-money-container" class="text-center mt-3 fs-1">
+          <h1>Totale a disposizione: <span id="total-money">€ 0</span></h1>
+      </div>
+        <h3 class="mt-5 text-center">Spese</h3>
+        <table id="spese-table" class="table table-striped m-1 me-3 ">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Servizio</th>
+              <th scope="col">Quota</th>
+            </tr>
+          </thead>
+          <tbody >
+            
+          
+            </tr>
+          </tbody>
+        </table>
+        
+       <h3 class="text-center mt-5">Partecipanti</h3>
+       <table id="partecipanti-table" class="table table-striped m-1 me-3">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -35,13 +77,11 @@
         </thead>
         <tbody >
           
-        
-          </tr>
         </tbody>
       </table>
-      <div id="total-money-container">
-        <p>Totale a disposizione: <span id="total-money">€ 0</span></p>
-    </div>
+       
+      
+      
     
        
 
