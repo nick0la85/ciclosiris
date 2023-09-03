@@ -1,18 +1,23 @@
-* {background: #FFEEEE;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+* {
+    background: #FFEEEE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE);
     ;
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 img {
     width: 100%;
-    
+
 }
-.fa-solid{color: #008000;}
+
+.fa-solid {
+    color: #008000;
+}
 
 .card {
     display: flex;
@@ -40,16 +45,18 @@ img {
     margin: 0;
 }
 
-.custom-card{
+.custom-card {
     width: 120px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.scale-up {
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
+.total-budget {
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.scale-down {
-    transform: scale(1);
-    transition: transform 0.3s ease-in-out;
+.custom-card:hover,
+.custom-card:focus,
+.total-budget:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

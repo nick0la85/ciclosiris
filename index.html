@@ -10,16 +10,20 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="/favicon.ico.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/468e211627.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>CicloSilente</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CicloSilente</a>
+        <a class="navbar-brand" href="#">
+          <img src="/ms-icon-144x144.png" alt="" width="50" height="24" />
+        </a>
+        <a class="navbar-brand" href="index.html">CicloSilente</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,10 +38,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tappe</a>
+              <a class="nav-link active" aria-current="page" href="tappe.html"
+                >Tappe</a
+              >
             </li>
           </ul>
         </div>
@@ -45,7 +48,6 @@
     </nav>
 
     <div class="container">
-      
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -82,28 +84,29 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
+
       <div class="d-flex justify-content-center mt-3">
-        <div class="card" style="width: 18rem;" id="total-budget">
-          <i class="fa-solid fa-piggy-bank fa-beat mt-3 fs-1" style="color: #000000;"></i>
+        <div class="card total-budget" style="width: 18rem">
+          <i
+            class="fa-solid fa-piggy-bank fa-beat mt-3 fs-1"
+            style="color: #000000"
+          ></i>
           <div class="card-body">
             <h1 class="card-title">Budget</h1>
             <h2 class="card-text" id="total-money">€ 0.00</h2>
           </div>
         </div>
-        
       </div>
-      
-      
+
       <h3 class="mt-5 text-center">Spese</h3>
       <div
-        class="d-flex justify-content-center gap-1 flex-wrap "
+        class="d-flex justify-content-center gap-1 flex-wrap"
         id="spese-container"
       ></div>
-      
+
       <h3 class="text-center mt-5">Partecipanti</h3>
       <div
-        class="d-flex  justify-content-center gap-1 flex-wrap "
+        class="d-flex justify-content-center gap-1 flex-wrap"
         id="partecipanti-container"
       ></div>
     </div>
