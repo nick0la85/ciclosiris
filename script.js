@@ -188,3 +188,16 @@ function calcolaTotale() {
 
 // Chiama la funzione al caricamento della pagina per inizializzare il totale
 calcolaTotale();
+
+// Seleziona l'elemento con ID "total-money"
+const totalMoneyElement = document.getElementById("total-budget");
+
+// Aggiungi l'evento mouseover per ingrandire al passaggio del mouse
+totalMoneyElement.addEventListener("mouseover", () => {
+    totalMoneyElement.classList.add("scale-up");
+});
+
+// Aggiungi l'evento mouseout per ripristinare le dimensioni originali
+totalMoneyElement.addEventListener("mouseout", () => {
+    totalMoneyElement.classList.remove("scale-up");
+});
