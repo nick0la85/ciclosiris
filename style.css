@@ -46,7 +46,7 @@ img {
 }
 
 .custom-card {
-    width: 120px;
+    width: 100px;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
