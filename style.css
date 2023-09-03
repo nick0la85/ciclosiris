@@ -1,9 +1,42 @@
-* {background: radial-gradient(circle, rgba(2,138,199,1) 27%, rgba(106,135,54,1) 100%);
+* {background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    ;
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-color: white;}
+}
 img {
     width: 100%;
     
 }
+.fa-solid{color: #008000;}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-text {
+    margin: 0;
+}
+
