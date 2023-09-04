@@ -141,7 +141,7 @@ const speseData = [
   },
   { nome: "Bar", iconClass: "fas fa-coffee", iconaEuro: "€", quota: 0 },
   { nome: "Benzina", iconClass: "fas fa-gas-pump", iconaEuro: "€", quota: 20 },
-  { nome: "Varie", iconClass: "fas fa-shopping-bag", iconaEuro: "€", quota: 20 },
+  { nome: "Varie", iconClass: "fas fa-shopping-bag", iconaEuro: "€", quota: 500 },
   // Aggiungi altre spese qui...
 ];
 
