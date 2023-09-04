@@ -91,7 +91,7 @@ const partecipantiData = [
     nome: "Giuseppe",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota: 0,
+    quota: 20,
   },
   {
     nome: "Filippo",
