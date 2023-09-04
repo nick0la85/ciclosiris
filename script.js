@@ -103,7 +103,7 @@ const partecipantiData = [
     nome: "Nicola",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota: 0,
+    quota: 100,
   },
   {
     nome: "Franco",
@@ -140,7 +140,7 @@ const speseData = [
     quota: 0,
   },
   { nome: "Bar", iconClass: "fas fa-coffee", iconaEuro: "€", quota: 0 },
-  { nome: "Benzina", iconClass: "fas fa-gas-pump", iconaEuro: "€", quota: 0 },
+  { nome: "Benzina", iconClass: "fas fa-gas-pump", iconaEuro: "€", quota: 20 },
   { nome: "Varie", iconClass: "fas fa-shopping-bag", iconaEuro: "€", quota: 0 },
   // Aggiungi altre spese qui...
 ];
@@ -188,3 +188,4 @@ function calcolaTotale() {
 
 // Chiama la funzione al caricamento della pagina per inizializzare il totale
 calcolaTotale();
+
