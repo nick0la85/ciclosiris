@@ -9,7 +9,7 @@ function updatePartecipantiCards(data) {
 
   data.forEach((item) => {
     const card = document.createElement("div");
-    card.className = "card custom-card";
+    card.className = "card rounded-circle custom-card";
 
     const col = document.createElement("div");
     col.className = "col-md-4";
@@ -46,7 +46,7 @@ function updateSpeseCards(data) {
 
   data.forEach((item) => {
     const card = document.createElement("div");
-    card.className = "card custom-card";
+    card.className = "card rounded-pill custom-card";
 
     const col = document.createElement("div");
     col.className = "col-md-4";
