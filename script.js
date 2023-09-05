@@ -79,19 +79,19 @@ const partecipantiData = [
     nome: "Antonio",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota:200 + 150 + 20+30,
+    quota:0,
   },
   {
     nome: "Pino",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota:200,
+    quota:0,
   },
   {
     nome: "Giuseppe",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota: 20,
+    quota: 0,
   },
   {
     nome: "Filippo",
@@ -103,7 +103,7 @@ const partecipantiData = [
     nome: "Nicola",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
-    quota: 100,
+    quota: 0,
   },
   {
     nome: "Franco",
@@ -132,7 +132,7 @@ const partecipantiData = [
 ];
 
 const speseData = [
-  { nome: "Albergo", iconClass: "fas fa-hotel", iconaEuro: "€", quota: 20 },
+  { nome: "Albergo", iconClass: "fas fa-hotel", iconaEuro: "€", quota: 0 },
   {
     nome: "Ristorante",
     iconClass: "fas fa-utensils",
@@ -140,8 +140,8 @@ const speseData = [
     quota: 0,
   },
   { nome: "Bar", iconClass: "fas fa-coffee", iconaEuro: "€", quota: 0 },
-  { nome: "Benzina", iconClass: "fas fa-gas-pump", iconaEuro: "€", quota: 20 },
-  { nome: "Varie", iconClass: "fas fa-shopping-bag", iconaEuro: "€", quota: 500 },
+  { nome: "Benzina", iconClass: "fas fa-gas-pump", iconaEuro: "€", quota: 0 },
+  { nome: "Varie", iconClass: "fas fa-shopping-bag", iconaEuro: "€", quota: 0 },
   // Aggiungi altre spese qui...
 ];
 
