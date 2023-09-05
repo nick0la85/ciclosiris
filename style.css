@@ -12,6 +12,10 @@ body{
     
 }
 
+.carousel-custom{
+    border-radius: 50%;
+}
+
 img {
     width: 100%;
 
