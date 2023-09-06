@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/17973908.jpg);
+    background: radial-gradient(circle, rgba(12,118,197,1) 5%, rgba(176,212,244,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -32,7 +32,7 @@ img {
     align-items: center;
     text-align: center;
     height: 100%;
-    background: radial-gradient(circle, rgba(0,184,230,1) 27%, rgba(13,162,200,1) 100%);
+    background: linear-gradient(90deg, rgba(150,201,242,1) 0%, rgba(92,175,241,1) 100%);
 
 }
 
