@@ -12,7 +12,7 @@ function updatePartecipantiCards(data) {
     card.className = "card rounded-circle custom-card";
 
     const col = document.createElement("div");
-    col.className = "col-md-4";
+    col.className = "col-md-4 col-xl-4";
 
     const cardBody = document.createElement("div");
     cardBody.className = "card-body";
@@ -49,7 +49,7 @@ function updateSpeseCards(data) {
     card.className = "card rounded-pill custom-card";
 
     const col = document.createElement("div");
-    col.className = "col-md-4";
+    col.className = "col-md-4 col-xl-4";
 
     const cardBody = document.createElement("div");
     cardBody.className = "card-body";
@@ -129,7 +129,6 @@ const partecipantiData = [
     iconaEuro: "€",
     quota: 0,
   },
-];
 {
     nome: "Utente10",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
