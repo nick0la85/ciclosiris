@@ -49,7 +49,7 @@ function updateSpeseCards(data) {
     card.className = "card rounded-pill custom-card";
 
     const col = document.createElement("div");
-    col.className = "col-md-4";
+    col.className = "col-md-4 col-xl-4";
 
     const cardBody = document.createElement("div");
     cardBody.className = "card-body";
@@ -76,55 +76,62 @@ function updateSpeseCards(data) {
 // Esempio dati per le tabelle (sostituisci con i tuoi dati reali)
 const partecipantiData = [
   {
-    nome: "Antonio",
+    nome: "Utente1",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota:0,
   },
   {
-    nome: "Pino",
+    nome: "Utente2",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota:0,
   },
   {
-    nome: "Giuseppe",
+    nome: "Utente3",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 90,
   },
   {
-    nome: "Filippo",
+    nome: "Utente4",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
   },
   {
-    nome: "Nicola",
+    nome: "Utente5",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
   },
   {
-    nome: "Franco",
+    nome: "Utente6",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
   },
   {
-    nome: "Paolo",
+    nome: "Utente7",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
   },
   {
-    nome: "Aldo",
+    nome: "Utente8",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
   },
   {
-    nome: "Mimmo",
+    nome: "Utente9",
+    iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
+    iconaEuro: "€",
+    quota: 0,
+  },
+];
+{
+    nome: "Utente10",
     iconClass: "fa-sharp fa-solid fa-person-biking fa-beat",
     iconaEuro: "€",
     quota: 0,
